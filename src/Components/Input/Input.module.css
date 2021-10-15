@@ -1,0 +1,30 @@
+.input {
+    border: 1px solid #DFE3E6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+}
+
+
+
+.input:hover {
+    border: 1px solid #000000;
+    transition: .5s;
+}
+
+.input.error {
+    border: 1px solid #EA0029;
+}
+
+span.error {
+    color: #EA0029;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.input[placeholder] {
+    color: #000;
+}

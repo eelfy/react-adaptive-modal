@@ -1,0 +1,49 @@
+.outlined {
+    /* position: relative; */
+    border: 1px solid #FFFFFF;
+    height: 50px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 44px #CFDAE7);
+    border-radius: 6px;
+    padding: 16px 32px;
+    background: inherit;
+    color: #fff;
+    cursor: pointer;
+}
+
+.outlined:hover {
+    background: #FFFFFF;
+    border-radius: 6px;
+    color: #000;
+    transition: .5s ease;
+}
+
+.text {
+    border: none;
+    color: #EA0029;
+    background: inherit;
+    cursor: pointer;
+}
+
+.text:hover {
+    color: #F53A31;
+}
+
+.contained {
+    height: 50px;
+
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+    border-radius: 6px;
+}
+
+.contained:hover {
+    background: #EA0029;
+    box-shadow: 0px 0px 24px rgba(234, 0, 41, 0.33);
+    border-radius: 6px;
+
+    transition: .5s;
+}

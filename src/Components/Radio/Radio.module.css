@@ -1,0 +1,36 @@
+.body {}
+
+.radio {
+    visibility: hidden;
+    /* display: none; */
+
+}
+
+.label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 15px;
+    line-height: 34px;
+    /* border: 1px solid #999; */
+    /* border-radius: 6px; */
+    user-select: none;
+    background: #EEF0F2;
+    border-radius: 50px;
+}
+
+
+
+/* Checked */
+input[type=radio]:checked+label {
+    background: linear-gradient(255.35deg, #DC3131 0.83%, rgba(255, 79, 79, 0) 108.93%), #FF5E56;
+    color: white;
+}
+
+/* Hover */
+.label:hover {
+    /* filter: brightness(120%); */
+    /* display: none;*/
+    color: black;
+    background: #DFE3E6;
+    transition: .5s;
+}

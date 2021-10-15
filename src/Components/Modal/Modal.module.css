@@ -1,0 +1,85 @@
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: none;
+}
+
+.modal_active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    opacity: 1;
+}
+
+.modal_body {
+    width: 550px;
+    border-radius: 30px;
+    background: #fff;
+    padding: 32px;
+}
+
+.modal_header {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal_descr {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.modal_paycheck {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.modal_paycheck>input {
+    margin: 8px 0;
+}
+
+
+
+.modal_pays {
+    padding: 16px 0;
+    border-bottom: 1px solid #DFE3E6;
+}
+
+.modal_choice {
+    margin: 24px 0 24px 0;
+}
+
+@media (max-width: 768px) {
+    .modal_body {
+        width: 450px;
+    }
+}
+
+@media (max-width: 320px) {
+    .modal_body {
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
