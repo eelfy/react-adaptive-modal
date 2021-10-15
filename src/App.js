@@ -37,7 +37,7 @@ function App() {
 
       <Button type='outlined'
         onClick={() => setModalActive(true)}
-        text='Налоговый вчет' />
+        text='Налоговый вычет' />
       <Modal active={ModalActive}
         setActive={setModalActive}>
         <div className={modal.modal_header}>
