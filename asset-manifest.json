@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-adaptive-modal/static/css/main.332afe27.chunk.css",
-    "main.js": "/react-adaptive-modal/static/js/main.3e426030.chunk.js",
-    "main.js.map": "/react-adaptive-modal/static/js/main.3e426030.chunk.js.map",
+    "main.js": "/react-adaptive-modal/static/js/main.8210ef6b.chunk.js",
+    "main.js.map": "/react-adaptive-modal/static/js/main.8210ef6b.chunk.js.map",
     "runtime-main.js": "/react-adaptive-modal/static/js/runtime-main.487b7e3b.js",
     "runtime-main.js.map": "/react-adaptive-modal/static/js/runtime-main.487b7e3b.js.map",
     "static/js/2.bebeaf00.chunk.js": "/react-adaptive-modal/static/js/2.bebeaf00.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.487b7e3b.js",
     "static/js/2.bebeaf00.chunk.js",
     "static/css/main.332afe27.chunk.css",
-    "static/js/main.3e426030.chunk.js"
+    "static/js/main.8210ef6b.chunk.js"
   ]
 }
